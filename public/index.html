@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Timestamp Microservice</title>
+        <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+    </head>
+    <body>
+        <div class="main-container">
+            <h1>API: Timestamp Microservice</h1>
+            <h3>Description:</h3>
+            <ol>
+                <li>You can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</li>
+                <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+                <li>If it does not contain a date or Unix timestamp, it returns null and invalid.</li>
+            </ol>
+        </div>
+        <div class="usage-container">
+            <h2>Example:</h2>
+            <p>https://timestamp-ms.herokuapp.com/December 20, 2015</p><br/>
+            <p>https://timestamp-ms.herokuapp.com/1450137600</p>
+            <h2>Usage:</h2>
+            <p>{ "unix": 1450137600, "natural": "December 15, 2015" }</p>
+        </div>
+        
+    </body>
+</html>
